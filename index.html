@@ -1,143 +1,1429 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  </head>
-<body bgcolor="grey" lang=es-419 style='tab-interval:35.4pt;word-wrap:break-word'>
-<center><img src="https://i.ibb.co/3mq1MsW/banner.jpg" size="100%"></center>
-<div class=WordSection1>
-  <center><h1>Tryhackiando</span> – El Repositorio</h1></center>
-<p>Aquí encontrarás resolutorios de rooms de Tryhackme creados por miembros de la comunidad <b>Tryhackiando</b>.</p>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/darkmode.css">
+    
+    <title>Tryhackiando</title>
+    
+</head>
 
-<br>
+<body>
+  <style>
+    body {
+    background-image: url("http://i.imgur.com/McuBZGL.gif");
+    }
+    
+    </style>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Tryhackiando</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/../tryhackiando.github.io/contributors.html">Contributors
+                
+              </a>
+            </li>
+          </ul>
+        </div>
 
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0>
- <tr bgcolor="black" style="color:white"><center>
-  <td width=142 valign=top><p>RoomName</p></td>
-  <td width=142 valign=top><p>Comentarios</p></td>
-  <td width=142 valign=top><p>Dificultad</p></td>
-  <td width=142 valign=top><p>Writeups</p></td>
-   </tr></center>
-<tr>  <td width=142 valign=top><p>Advent of Cyber 2 </p></td><td><p>web reversing networking scripting python blue </p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/aoc2020/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Agent Sudo</p></td><td><p>ftp, steganography, steghide, binwalk, sudo privesc</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/agent_sudo/">sckull</a>,<a href="https://borb3d.github.io/thm/AgentSudo.html">Borbed</a>,</p></td>
-<tr>  <td width=142 valign=top><p>All in One </p></td><td><p>suid ftp cron wordpress wpscan </p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/allinone/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Anonforce</p></td><td><p>ftp</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/anonforce/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Anonymous Playground </p></td><td><p>wildcard privesc </p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/anonymousplayground/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Anonymous</p></td><td><p>ftp smbclient suid </p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://crypt0cr1s.medium.com/anonymous-writeup-espa%C3%B1ol-a30ba709d1ad">Crypt0Cr1s</a>,<a href="https://sckull.github.io/posts/anonymous/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Anthem</p></td><td><p>rdp</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/anthem/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Archangel </p></td><td><p>lfi,rce,suid,php,rustbuster,ghidra </p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/archangel/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Aster </p></td><td><p>uncompyle6 gobuster asterisk cron metasploit telnet java jar pspy</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/aster/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Battery </p></td><td><p>sql xxe python pspy </p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/battery/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Biohazard</p></td><td><p>cyberchef vigenere ftp steganography steghide binwalk</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/biohazard/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Blog</p></td><td><p>wordpress smbclient steganography steghide wpscan suid</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/blog/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Blue</p></td><td><p>eternalblue, ms17_010, smbclient, metasploit </p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/blue-thm/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Blueprint</p></td><td><p>osCommerce 2.3.4.1, DNS exfil, metasploit </p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/blueprint/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>BoilerCTF</p></td><td><p>ftp vigenere Sar2HTML suid </p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/boilerctf/">sckull</a>,<a href="https://borb3d.github.io/thm/boilerCtf.html">Borb3d</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Bolt</p></td><td><p>cms bolt</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/bolt/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Bounty Hacker</p></td><td><p>ftp tar privesc</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://borb3d.github.io/thm/bountyHacker.html">Borb3d</a>,<a href="https://sckull.github.io/posts/bountyhacker/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Break It</p></td><td><p></p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/breakit/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Break Out The Cage</p></td><td><p>ftp steganography vigenere</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/breakthecage/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Broker</p></td><td><p>Boot2Root</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://nightlovel.medium.com/writeup-broker-nightlovel-3d1cd303deb9">Nightlovel</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Brooklyn Nine Nine</p></td><td><p>ftp steganography stegcracker nano</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/brooklyn99/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Brute it </p></td><td><p>steganography steghide docker sudo privesc ftp </p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://crypt0cr1s.medium.com/try-hack-me-brute-it-writeup-espa%C3%B1ol-770241eec213">Crypt0Cr1s</a>,<a href="https://sckull.github.io/posts/bruteit/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>C4ptur3-th3-fl4g</p></td><td><p>cyberchef, steganography,binwalk</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/c4ptur3-th3-fl4g/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>CherryBlossom</p></td><td><p>enum4linux, smbclient, xxd, steganography, stegpy, fcrackzip, sudo privesc</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/cherryblossom/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Chill Hack </p></td><td><p>steganography steghide docker sudo privesc ftp</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/chillhack/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Chocolate Factory </p></td><td><p>Fernet criptography ftp steghide steganography john</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/chocolatfactory/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Cicada-3301 Vol:1</p></td><td><p>steganography,vigenere </p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/cicada3301vol1/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>CMesS</p></td><td><p>cron, wildcard privesc </p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/cmess/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Colddbox:easy</p></td><td><p>wordpress hydra wpscan sudo privesc</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/coldd/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>ConvertMyVideo</p></td><td><p>cron</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/convertmyvideo/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Crack The Hash</p></td><td><p>hashcat hash-identifier </p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/hashes/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Crack The Hash: level 2</p></td><td><p>hashcat hash-identifier </p></td><td width=142 valign=top><p>Medium</p></td><td width=142 valign=top><p><a href="https://crypt0cr1s.medium.com/tryhackme-crack-the-hash-level-2-espa%C3%B1ol-86369c1d007e">Crypt0Cr1s</a>,</p></td>
-<tr>  <td width=142 valign=top><p>CTF collection Vol.1</p></td><td><p></p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/ctf_collection_vol1/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>CTF Collection Vol.2</p></td><td><p></p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/ctf_collection_vol2/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Cyborg </p></td><td><p>rustbuster john sudo privesc borg backup getopts </p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/cyborg/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Daily Bungle</p></td><td width=142 valign=top><p>Boot2root</p></td><td><p>Easy</p></td><td width=142><p><a href="https://borb3d.github.io/thm/dailyBugle.html">Borbed</a>,</p></td></tr>
-<tr>  <td width=142 valign=top><p>Dav</p></td><td><p>webdav cadaver</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/dav/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Develpy </p></td><td><p>steganography exec eval cron</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/develpy/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>djinn</p></td><td><p>ftp knockd </p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/djinn/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>DogCat </p></td><td><p>lfi, cron</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/dogcat/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Easy Peasy</p></td><td><p>steganography steghide cron</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/easypeasy/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>For Business Reason </p></td><td><p>docker chisel wpscan lxd </p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/forbusinesreason/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Fowsniff CTF</p></td><td><p>telnet pop3 </p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/fowsniff/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Gaming Server </p></td><td><p>lxd</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://borb3d.github.io/thm/gamingserver.html">Borb3d</a><a href="https://sckull.github.io/posts/gamingserver/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Ghizer </p></td><td><p>python library hijacking ftp LimeSurvey ghidra jdb</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://borb3d.github.io/thm/ghizer.html">Borb3d</a>,<a href="https://sckull.github.io/posts/ghizer/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Git Happens </p></td><td><p>gittools</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/githappens/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>GoldenEye</p></td><td><p>pop3</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/goldeneye/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Gotta Catch’em All!</p></td><td><p>boot2root</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/pokemon/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>HA Joker CTF</p></td><td><p>lxd</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/jokerctf/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Harder </p></td><td><p>gittools suid</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/harder/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Ignite</p></td><td><p>Fuel CMS</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/ignite/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Iron Corp</p></td><td><p>Dig,LFI,Nishang,Metasploit</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/ironcorp/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Jack-of-All-Trades</p></td><td><p>caesar, steganography, steghide, suid </p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/jackofalltrades/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Jacob The Boss </p></td><td><p>linux</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/jacobtheboss/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>JoyStick</p></td><td><p>ftp cron </p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/joystick/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Kiba </p></td><td><p>kibana capabilities</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://borb3d.github.io/thm/kiba.html">Borb3d</a>,<a href="https://sckull.github.io/posts/kiba/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>KnockKnock</p></td><td><p>knockd, kernel </p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/knockknock/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>KoTH Food CTF</p></td><td><p>koth</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/kothfood/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>KoTH Hackers</p></td><td><p>koth</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/kothhacker/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>LaxCTF</p></td><td><p>laTex jadx brainfuck cron openvpn </p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/laxctf/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Lazy Admin</p></td><td><p>sweetrice, firefox</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/lazyadmin/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Lian_Yu</p></td><td><p>ftp xxd hexeditor steganography steghide </p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/lianyu/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Library </p></td><td><p>python library hijacking </p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/library/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Linux Privesc Playground</p></td><td><p>GTFObins,SUID </p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/linuxprivescplayground/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Madness</p></td><td><p></p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/madness_thm/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Nax</p></td><td><p>nagiox xi, steganography, metasploit</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/nax/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Node 1</p></td><td><p>xxd, nodejs, kernel </p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/nodeone/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>NonameCTF</p></td><td width=142 valign=top><p>Osint</p></td><td><p>Easy</p></td><td width=142><p><a href="https://github.com/clarksoft/WriteUps/blob/ace7c8c08f1eead8169843b26564bd09917d8799/nonameCTF_writeup_espa%C3%B1ol.pdf">Clarksoft</a>,</p></td></tr>
-<tr>  <td width=142 valign=top><p>Overpass 1</p></td><td><p>cron</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/overpass/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Overpass 2 </p></td><td><p>suid</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/overpasstwo/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Overpass 3 - Hosting</p></td><td><p>nfs rpc rustbuster ftp chisel mount</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/overpass3/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Password Cracking</p></td><td><p>hashcat</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/password_cracking_thm/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Peak Hill </p></td><td><p>ftp pickle</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/peakhill/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Pepega Energy</p></td><td><p>metasploit, TeamViewer, rdp </p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/pepegaenergy/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Pickle Rick</p></td><td><p>boot2root</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/picklerick/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Poster </p></td><td><p>postgresql metasploit </p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/poster/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Psycho Break </p></td><td><p>steganography steghide cronjob ftp </p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/psychobreak/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Racetrack Bank</p></td><td><p>nodejs, suid, cron </p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/racetrackbank/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Retro</p></td><td><p>rdp</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/retro/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Rootme </p></td><td><p>suid</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/rootme/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>SakuraCTF</p></td><td width=142 valign=top><p>Osint</p></td><td><p>Easy</p></td><td width=142><p><a href="https://github.com/clarksoft/WriteUps/blob/ace7c8c08f1eead8169843b26564bd09917d8799/THM%20-%20sakura%20OsintDojo.pdf">Clarksoft</a>,</p></td></tr>
-<tr>  <td width=142 valign=top><p>Simple CTF</p></td><td><p>ftp, CMS Made Simple, vim </p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/simplectfthm/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Smag Grotto</p></td><td><p>boot2root</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/smag/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Source</p></td><td><p>metasploit</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/source/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Startup </p></td><td><p>pspy webshell wireshark</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/startup/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Stealthcopter CTF Primer</p></td><td><p></p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/stealthcopter/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Tartarus</p></td><td><p>ftp gdb cron</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/tartarus/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Team </p></td><td><p>lfi,suid,php,gobuster,wfuzz </p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/teamcw/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Thompson</p></td><td><p>metasploit cron </p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/thompson/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>TomGhost</p></td><td><p>ghostcat</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/tomgost/">sckull</a>,<a href="https://borb3d.github.io/thm/tomghost.html">Borb3d</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Tony the Tiger</p></td><td><p>jexboss</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/tonythetiger/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Throwback - Network</p></td><td><p>Network pentesting</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://fwhibbit.es/tryhackme-throwback-writeup">m4vs</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Ultratech</p></td><td><p>sqlite, ftp, docker </p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/ultratech/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>uopeasy</p></td><td><p>sqli sqlmap wordpress</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/uopeasy/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Volatility</p></td><td width=142 valign=top><p>Osint</p></td><td><p>Easy</p></td><td width=142><p><a href="https://github.com/clarksoft/WriteUps/blob/ace7c8c08f1eead8169843b26564bd09917d8799/volatility.pdf">Clarksoft</a>,</p></td></tr>
-<tr>  <td width=142 valign=top><p>Vulnos2</p></td><td><p>jabc-docs, sqli, sqlmap, kernel </p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/vulnos2/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Vulnversity</p></td><td><p>suid</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/vulnversity/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Wgel CTF</p></td><td><p></p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/wgel/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Willow</p></td><td><p>nfs, showmount, steghide, steganography </p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/willow/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Wonderland </p></td><td><p>capabilities python library hijacking hijacking PATH</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://borb3d.github.io/thm/wonderland.html">Borb3d</a>,<a href="https://sckull.github.io/posts/wonderland/">sckull</a>,</p></td>
-<tr>  <td width=142 valign=top><p>Year of the Rabbit</p></td><td><p>ftp brainfuck vim sudo privesc</p></td><td width=142 valign=top><p>Easy</p></td><td width=142 valign=top><p><a href="https://sckull.github.io/posts/yearoftherabbit/">sckull</a>,</p></td>
+    </nav>
 
-   
-  </tr>
-</table>
+    <div class="container">
+      <div class="column">
+        <div class="row">
+          <br>
+          <br>
+        </div>
+      </div>
+    </div>
 
- 
-  
-  <p>Contribuidores.</p>
-
-<img src="https://tryhackme-badges.s3.amazonaws.com/borb3d.png">
-<br>
-<script src="https://tryhackme.com/badge/15031"></script>
-<br>
-<img src="https://tryhackme-badges.s3.amazonaws.com/Crypt0Cr1s.png">
-<br>
-<img src="https://tryhackme-badges.s3.amazonaws.com/m4vs.png">
-<br>
-<img src="https://tryhackme-badges.s3.amazonaws.com/Nightlovel.png">
-<br>
-<img src="https://tryhackme-badges.s3.amazonaws.com/sckull.png">
-<br>
-  </div>
+    <div class="container mt-3">
+      <h2>Tryhackiando Repositorio</h2>
+      <p>Aquí encontrarás resolutorios de rooms de Tryhackme creados por miembros de la comunidad <b>Tryhackiando</b>.</p>  
+      <input class="form-control" id="myInput" type="text" placeholder="Search..">
+      <br>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>RoomName</th>
+            <th>Comentarios</th>
+            <th>Dificultad</th>
+            <th>Writeups</th> 
+            
+          </tr>
+        </thead>
+        <tbody id="myTable">
+        <tr>
+          <td width=142 valign=top>
+            <p>Advent of Cyber 2 </p>
+          </td>
+          <td>
+            <p>web reversing networking scripting python blue </p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/aoc2020/">sckull</a>,</p>
+          </td>
+        <tr>
+        <tr>
+          <td width=142 valign=top>
+            <p>Agent Sudo</p>
+          </td>
+          <td>
+            <p>ftp, steganography, steghide, binwalk, sudo privesc</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/agent_sudo/">sckull</a><a
+                href="https://borb3d.github.io/thm/AgentSudo.html">Borbed</a></p>
+          </td>
+        </tr>
+        <tr>
+          <td width=142 valign=top>
+            <p>All in One </p>
+          </td>
+          <td>
+            <p>suid ftp cron wordpress wpscan </p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/allinone/">sckull</a></p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Anonforce</p>
+          </td>
+          <td>
+            <p>ftp</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/anonforce/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Anonymous Playground </p>
+          </td>
+          <td>
+            <p>wildcard privesc </p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/anonymousplayground/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Anonymous</p>
+          </td>
+          <td>
+            <p>ftp smbclient suid </p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://crypt0cr1s.medium.com/anonymous-writeup-espa%C3%B1ol-a30ba709d1ad">Crypt0Cr1s</a>,<a
+                href="https://sckull.github.io/posts/anonymous/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Anthem</p>
+          </td>
+          <td>
+            <p>rdp</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/anthem/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Archangel </p>
+          </td>
+          <td>
+            <p>lfi,rce,suid,php,rustbuster,ghidra </p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/archangel/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Aster </p>
+          </td>
+          <td>
+            <p>uncompyle6 gobuster asterisk cron metasploit telnet java jar pspy</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/aster/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Battery </p>
+          </td>
+          <td>
+            <p>sql xxe python pspy </p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/battery/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Biohazard</p>
+          </td>
+          <td>
+            <p>cyberchef vigenere ftp steganography steghide binwalk</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/biohazard/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Blog</p>
+          </td>
+          <td>
+            <p>wordpress smbclient steganography steghide wpscan suid</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/blog/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Blue</p>
+          </td>
+          <td>
+            <p>eternalblue, ms17_010, smbclient, metasploit </p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/blue-thm/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Blueprint</p>
+          </td>
+          <td>
+            <p>osCommerce 2.3.4.1, DNS exfil, metasploit </p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/blueprint/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>BoilerCTF</p>
+          </td>
+          <td>
+            <p>ftp vigenere Sar2HTML suid </p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/boilerctf/">sckull</a>,<a
+                href="https://borb3d.github.io/thm/boilerCtf.html">Borb3d</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Bolt</p>
+          </td>
+          <td>
+            <p>cms bolt</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/bolt/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Bounty Hacker</p>
+          </td>
+          <td>
+            <p>ftp tar privesc</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://borb3d.github.io/thm/bountyHacker.html">Borb3d</a>,<a
+                href="https://sckull.github.io/posts/bountyhacker/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Break It</p>
+          </td>
+          <td>
+            <p></p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/breakit/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Break Out The Cage</p>
+          </td>
+          <td>
+            <p>ftp steganography vigenere</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/breakthecage/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Broker</p>
+          </td>
+          <td>
+            <p>Boot2Root</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://nightlovel.medium.com/writeup-broker-nightlovel-3d1cd303deb9">Nightlovel</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Brooklyn Nine Nine</p>
+          </td>
+          <td>
+            <p>ftp steganography stegcracker nano</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/brooklyn99/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Brute it </p>
+          </td>
+          <td>
+            <p>steganography steghide docker sudo privesc ftp </p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a
+                href="https://crypt0cr1s.medium.com/try-hack-me-brute-it-writeup-espa%C3%B1ol-770241eec213">Crypt0Cr1s</a>,<a
+                href="https://sckull.github.io/posts/bruteit/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>C4ptur3-th3-fl4g</p>
+          </td>
+          <td>
+            <p>cyberchef, steganography,binwalk</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/c4ptur3-th3-fl4g/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>CherryBlossom</p>
+          </td>
+          <td>
+            <p>enum4linux, smbclient, xxd, steganography, stegpy, fcrackzip, sudo privesc</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/cherryblossom/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Chill Hack </p>
+          </td>
+          <td>
+            <p>steganography steghide docker sudo privesc ftp</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/chillhack/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Chocolate Factory </p>
+          </td>
+          <td>
+            <p>Fernet criptography ftp steghide steganography john</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/chocolatfactory/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Cicada-3301 Vol:1</p>
+          </td>
+          <td>
+            <p>steganography,vigenere </p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/cicada3301vol1/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>CMesS</p>
+          </td>
+          <td>
+            <p>cron, wildcard privesc </p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/cmess/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Colddbox:easy</p>
+          </td>
+          <td>
+            <p>wordpress hydra wpscan sudo privesc</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/coldd/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>ConvertMyVideo</p>
+          </td>
+          <td>
+            <p>cron</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/convertmyvideo/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Crack The Hash</p>
+          </td>
+          <td>
+            <p>hashcat hash-identifier </p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/hashes/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Crack The Hash: level 2</p>
+          </td>
+          <td>
+            <p>hashcat hash-identifier </p>
+          </td>
+          <td width=142 valign=top>
+            <p>Medium</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a
+                href="https://crypt0cr1s.medium.com/tryhackme-crack-the-hash-level-2-espa%C3%B1ol-86369c1d007e">Crypt0Cr1s</a>,
+            </p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>CTF collection Vol.1</p>
+          </td>
+          <td>
+            <p></p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/ctf_collection_vol1/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>CTF Collection Vol.2</p>
+          </td>
+          <td>
+            <p></p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/ctf_collection_vol2/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Cyborg </p>
+          </td>
+          <td>
+            <p>rustbuster john sudo privesc borg backup getopts </p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/cyborg/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Daily Bungle</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Boot2root</p>
+          </td>
+          <td>
+            <p>Easy</p>
+          </td>
+          <td width=142>
+            <p><a href="https://borb3d.github.io/thm/dailyBugle.html">Borbed</a>,</p>
+          </td>
+        </tr>
+        <tr>
+          <td width=142 valign=top>
+            <p>Dav</p>
+          </td>
+          <td>
+            <p>webdav cadaver</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/dav/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Develpy </p>
+          </td>
+          <td>
+            <p>steganography exec eval cron</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/develpy/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>djinn</p>
+          </td>
+          <td>
+            <p>ftp knockd </p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/djinn/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>DogCat </p>
+          </td>
+          <td>
+            <p>lfi, cron</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/dogcat/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Easy Peasy</p>
+          </td>
+          <td>
+            <p>steganography steghide cron</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/easypeasy/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>For Business Reason </p>
+          </td>
+          <td>
+            <p>docker chisel wpscan lxd </p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/forbusinesreason/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Fowsniff CTF</p>
+          </td>
+          <td>
+            <p>telnet pop3 </p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/fowsniff/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Gaming Server </p>
+          </td>
+          <td>
+            <p>lxd</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://borb3d.github.io/thm/gamingserver.html">Borb3d</a><a
+                href="https://sckull.github.io/posts/gamingserver/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Ghizer </p>
+          </td>
+          <td>
+            <p>python library hijacking ftp LimeSurvey ghidra jdb</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://borb3d.github.io/thm/ghizer.html">Borb3d</a>,<a
+                href="https://sckull.github.io/posts/ghizer/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Git Happens </p>
+          </td>
+          <td>
+            <p>gittools</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/githappens/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>GoldenEye</p>
+          </td>
+          <td>
+            <p>pop3</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/goldeneye/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Gotta Catch’em All!</p>
+          </td>
+          <td>
+            <p>boot2root</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/pokemon/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>HA Joker CTF</p>
+          </td>
+          <td>
+            <p>lxd</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/jokerctf/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Harder </p>
+          </td>
+          <td>
+            <p>gittools suid</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/harder/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Ignite</p>
+          </td>
+          <td>
+            <p>Fuel CMS</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/ignite/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Iron Corp</p>
+          </td>
+          <td>
+            <p>Dig,LFI,Nishang,Metasploit</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/ironcorp/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Jack-of-All-Trades</p>
+          </td>
+          <td>
+            <p>caesar, steganography, steghide, suid </p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/jackofalltrades/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Jacob The Boss </p>
+          </td>
+          <td>
+            <p>linux</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/jacobtheboss/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>JoyStick</p>
+          </td>
+          <td>
+            <p>ftp cron </p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/joystick/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Kiba </p>
+          </td>
+          <td>
+            <p>kibana capabilities</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://borb3d.github.io/thm/kiba.html">Borb3d</a>,<a
+                href="https://sckull.github.io/posts/kiba/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>KnockKnock</p>
+          </td>
+          <td>
+            <p>knockd, kernel </p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/knockknock/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>KoTH Food CTF</p>
+          </td>
+          <td>
+            <p>koth</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/kothfood/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>KoTH Hackers</p>
+          </td>
+          <td>
+            <p>koth</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/kothhacker/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>LaxCTF</p>
+          </td>
+          <td>
+            <p>laTex jadx brainfuck cron openvpn </p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/laxctf/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Lazy Admin</p>
+          </td>
+          <td>
+            <p>sweetrice, firefox</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/lazyadmin/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Lian_Yu</p>
+          </td>
+          <td>
+            <p>ftp xxd hexeditor steganography steghide </p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/lianyu/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Library </p>
+          </td>
+          <td>
+            <p>python library hijacking </p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/library/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Linux Privesc Playground</p>
+          </td>
+          <td>
+            <p>GTFObins,SUID </p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/linuxprivescplayground/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Madness</p>
+          </td>
+          <td>
+            <p></p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/madness_thm/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Nax</p>
+          </td>
+          <td>
+            <p>nagiox xi, steganography, metasploit</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/nax/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Node 1</p>
+          </td>
+          <td>
+            <p>xxd, nodejs, kernel </p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/nodeone/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>NonameCTF</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Osint</p>
+          </td>
+          <td>
+            <p>Easy</p>
+          </td>
+          <td width=142>
+            <p><a
+                href="https://github.com/clarksoft/WriteUps/blob/ace7c8c08f1eead8169843b26564bd09917d8799/nonameCTF_writeup_espa%C3%B1ol.pdf">Clarksoft</a>,
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td width=142 valign=top>
+            <p>Overpass 1</p>
+          </td>
+          <td>
+            <p>cron</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/overpass/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Overpass 2 </p>
+          </td>
+          <td>
+            <p>suid</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/overpasstwo/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Overpass 3 - Hosting</p>
+          </td>
+          <td>
+            <p>nfs rpc rustbuster ftp chisel mount</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/overpass3/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Password Cracking</p>
+          </td>
+          <td>
+            <p>hashcat</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/password_cracking_thm/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Peak Hill </p>
+          </td>
+          <td>
+            <p>ftp pickle</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/peakhill/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Pepega Energy</p>
+          </td>
+          <td>
+            <p>metasploit, TeamViewer, rdp </p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/pepegaenergy/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Pickle Rick</p>
+          </td>
+          <td>
+            <p>boot2root</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/picklerick/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Poster </p>
+          </td>
+          <td>
+            <p>postgresql metasploit </p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/poster/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Psycho Break </p>
+          </td>
+          <td>
+            <p>steganography steghide cronjob ftp </p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/psychobreak/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Racetrack Bank</p>
+          </td>
+          <td>
+            <p>nodejs, suid, cron </p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/racetrackbank/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Retro</p>
+          </td>
+          <td>
+            <p>rdp</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/retro/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Rootme </p>
+          </td>
+          <td>
+            <p>suid</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/rootme/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>SakuraCTF</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Osint</p>
+          </td>
+          <td>
+            <p>Easy</p>
+          </td>
+          <td width=142>
+            <p><a
+                href="https://github.com/clarksoft/WriteUps/blob/ace7c8c08f1eead8169843b26564bd09917d8799/THM%20-%20sakura%20OsintDojo.pdf">Clarksoft</a>,
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td width=142 valign=top>
+            <p>Simple CTF</p>
+          </td>
+          <td>
+            <p>ftp, CMS Made Simple, vim </p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/simplectfthm/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Smag Grotto</p>
+          </td>
+          <td>
+            <p>boot2root</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/smag/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Source</p>
+          </td>
+          <td>
+            <p>metasploit</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/source/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Startup </p>
+          </td>
+          <td>
+            <p>pspy webshell wireshark</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/startup/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Stealthcopter CTF Primer</p>
+          </td>
+          <td>
+            <p></p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/stealthcopter/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Tartarus</p>
+          </td>
+          <td>
+            <p>ftp gdb cron</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/tartarus/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Team </p>
+          </td>
+          <td>
+            <p>lfi,suid,php,gobuster,wfuzz </p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/teamcw/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Thompson</p>
+          </td>
+          <td>
+            <p>metasploit cron </p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/thompson/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>TomGhost</p>
+          </td>
+          <td>
+            <p>ghostcat</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/tomgost/">sckull</a>,<a
+                href="https://borb3d.github.io/thm/tomghost.html">Borb3d</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Tony the Tiger</p>
+          </td>
+          <td>
+            <p>jexboss</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/tonythetiger/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Throwback - Network</p>
+          </td>
+          <td>
+            <p>Network pentesting</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://fwhibbit.es/tryhackme-throwback-writeup">m4vs</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Ultratech</p>
+          </td>
+          <td>
+            <p>sqlite, ftp, docker </p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/ultratech/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>uopeasy</p>
+          </td>
+          <td>
+            <p>sqli sqlmap wordpress</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/uopeasy/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Volatility</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Osint</p>
+          </td>
+          <td>
+            <p>Easy</p>
+          </td>
+          <td width=142>
+            <p><a
+                href="https://github.com/clarksoft/WriteUps/blob/ace7c8c08f1eead8169843b26564bd09917d8799/volatility.pdf">Clarksoft</a>,
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td width=142 valign=top>
+            <p>Vulnos2</p>
+          </td>
+          <td>
+            <p>jabc-docs, sqli, sqlmap, kernel </p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/vulnos2/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Vulnversity</p>
+          </td>
+          <td>
+            <p>suid</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/vulnversity/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Wgel CTF</p>
+          </td>
+          <td>
+            <p></p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/wgel/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Willow</p>
+          </td>
+          <td>
+            <p>nfs, showmount, steghide, steganography </p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/willow/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Wonderland </p>
+          </td>
+          <td>
+            <p>capabilities python library hijacking hijacking PATH</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://borb3d.github.io/thm/wonderland.html">Borb3d</a>,<a
+                href="https://sckull.github.io/posts/wonderland/">sckull</a>,</p>
+          </td>
+        <tr>
+          <td width=142 valign=top>
+            <p>Year of the Rabbit</p>
+          </td>
+          <td>
+            <p>ftp brainfuck vim sudo privesc</p>
+          </td>
+          <td width=142 valign=top>
+            <p>Easy</p>
+          </td>
+          <td width=142 valign=top>
+            <p><a href="https://sckull.github.io/posts/yearoftherabbit/">sckull</a>,</p>
+          </td>
+        </tbody>
+      </table>
+      
+    </div>
+    
+    <script>
+      $(document).ready(function(){
+        $("#myInput").on("keyup", function() {
+          var value = $(this).val().toLowerCase();
+          $("#myTable tr").filter(function() {
+            $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+          });
+        });
+      });
+    </script>
+    
+    
+    
+      
 </body>
-
 </html>
